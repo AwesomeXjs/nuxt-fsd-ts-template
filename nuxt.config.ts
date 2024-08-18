@@ -24,12 +24,12 @@ export default defineNuxtConfig({
     ],
   },
   components: [{ path: "~/client/shared/ui/components", extensions: ["vue"] }],
-  css: ["@/shared/assets/scss/_style.scss"],
+  css: ["@/app/config/scss/_style.scss"],
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/shared/assets/scss/_variables.scss";',
+          additionalData: '@import "@/app/config/scss/_variables.scss";',
         },
       },
     },
