@@ -1,75 +1,24 @@
-# Nuxt 3 Minimal Starter
+![fsd-banner](https://raw.githubusercontent.com/feature-sliced/documentation/master/static/img/banner.jpg)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## About Feature-Sliced Design
 
-## Setup
+**Feature-Sliced Design** (FSD) is an architectural methodology for scaffolding front-end applications. Simply put, it's a compilation of rules and conventions on organizing code. The main purpose of this methodology is to make the project more understandable and structured in the face of ever-changing business requirements.
 
-Make sure to install the dependencies:
+![how fsd looks like](/public/fsd-scheme.jpg)
+_Scheme of Feature-Sliced Design_
 
-```bash
-# npm
-npm install
+Information provided by [Feature-Sliced Design](https://feature-sliced.design/docs/get-started/overview)
+### Features
 
-# pnpm
-pnpm install
+- [**Explicitness, controllability and adaptability**](https://feature-sliced.design/docs/concepts/architecture) of architecture
+- Based on [**time-tested**](https://feature-sliced.design/docs/get-started/motivation) design practices and concepts
+    - Such as `SOLID`, `GRASP`, `DDD`, `Separation of Concerns`, `Vertical Slices`, `Public API` and `Isolation`
+- Project structuring according to [**business units**](https://feature-sliced.design/docs/concepts/needs-driven)
 
-# yarn
-yarn install
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Links
+- 📚 [Documentation](https://feature-sliced.design)
+- 🚀 [A curated list of delightful resources](https://github.com/feature-sliced/awesome)
+- 🛠 [Examples of usage](https://github.com/feature-sliced/examples)
+- 📣 [Twitter](https://twitter.com/feature_sliced)
+- 📣 [Telegram](https://t.me/feature_sliced)
