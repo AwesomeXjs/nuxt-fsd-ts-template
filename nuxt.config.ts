@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     plugins: "client/shared/lib/plugins",
     middleware: "client/shared/lib/middleware",
     app: "client/app",
+    pages: "client/app",
   },
   imports: {
     dirs: [
